@@ -42,21 +42,22 @@ public class Main {
 			System.out.println(krediler[i]);
 		}
 		
-		//değer
+		//değer type
 		int sayi1 = 10;
 		int sayi2 = 20;
 		sayi1 = sayi2;
 		sayi2 = 100;
 		System.out.println(sayi1);
 		 
-		//liste
+		//array
+		//referans type
 		int[] sayilar1 = {1,2,3,4,5,};
 		int[] sayilar2 = {10,20,30,40,50};
 		sayilar1 = sayilar2;
 		sayilar2[0] = 100;
 		System.out.println(sayilar1[0]);
 		
-		//stringlere özel istisnai durum, değer gibi gösterir.
+		//stringlere özel istisnai durum, değer gibi gösterir. arka planda char[] çalıştırır.
 		String sehir1 = "Ankara";
 		String sehir2 = "İstanbul";
 		sehir1 = sehir2;
