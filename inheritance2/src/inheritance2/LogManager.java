@@ -1,6 +1,9 @@
 package inheritance2;
 
 public class LogManager {
+	
+	//Bu þekilde kullaným doðru deðildir. spagetti
+	//birbirinin alternatifi olan kodlar için if yazýlmaz
 	public void log(int  logType) {
 		if(logType == 1) {
 			System.out.println("Veri tabanýna loglandý");

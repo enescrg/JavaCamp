@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		//referans oluþturma, intance
-		Product product1 = new Product(1,"Lenovo v14", 15000, "16 GB Ram",10,13500);
+		Product product1 = new Product(1,"Lenovo v14", 15000, "16 GB Ram",10);
 		//constructor
 		
 		System.out.println(product1.getUnitPriceAfterDiscount());

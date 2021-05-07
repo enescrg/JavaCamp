@@ -1,11 +1,14 @@
 package inheritance;
 
 public class CustomerManager {
-	public void add(Customer customer) { //void :bana bir şey ver, döndürme-1.sıradaki customer onu extends eden classların referanslarını tutabilir
+	
+	//void :bana bir şey ver, döndürme-1.sıradaki customer onu extends eden classların referanslarını tutabilir
+	public void add(Customer customer) {
 		System.out.println(customer.customerNumber + " Kaydedildi.");
 	}
 	
-	public void addMultiple(Customer[] customers) { //bulk operasyonu, birden fazla müsteriyi aynı anda eklemek. ben sana bir array göndericem onu tek tek ekle
+	//bulk insert, operasyonu: birden fazla müsteriyi aynı anda eklemek. ben sana bir array göndericem onu tek tek ekle
+	public void addMultiple(Customer[] customers) {
 		for (Customer customer : customers) {
 			add(customer);
 		}

@@ -10,19 +10,21 @@ public class Product { //özellik tutucu class
 	private double unitPrice;
 	private String detail;
 	private double discount; //indirim
+	//private double unitPriceAfterDiscount; kullanmadýðýmýz için silebilirsin
 	
 	
 	public Product() {
 		
 	}
 	
-	public Product(int id, String name, double unitPrice, String detail, double discount, double unitPriceAfterDiscount) {
+	public Product(int id, String name, double unitPrice, String detail, double discount) {
 		super(); //parametresiz olaný da çalýþtýr
 		this.id = id;
 		this.name = name;
 		this.unitPrice = unitPrice;
 		this.detail = detail;
 		this.discount = discount;
+		//this.unitPriceAfterDiscount = unitPriceAfterDiscount;  kullanmadýðýmýz için silebilirsin
 		
 	}
 

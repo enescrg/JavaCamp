@@ -6,7 +6,11 @@ public class Main {
 		//birbirinin alternatifi olan kodlar için if yazýlmaz
 		
 		CustomerManager customerManager = new CustomerManager();
-		customerManager.add(new DataBaseLogger());
+		customerManager.add(new fileLogger());
+		
+		System.out.println("---------------");
+		
+		customerManager.add(new SmsLogger());
 	}
 
 }

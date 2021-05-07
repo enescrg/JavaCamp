@@ -1,6 +1,6 @@
 package inheritance2;
 
-public class EmailLogger extends logger{ //overide, loggerde bu vardý ama ben eziyorum, kendi kodummu yazýca
+public class EmailLogger extends logger{ //overide, loggerde bu vardý ama ben eziyorum, kendi kodummu yazýcam
 	@Override
 	public void log() {
 		System.out.println("Email yollandý");
