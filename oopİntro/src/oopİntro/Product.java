@@ -2,6 +2,7 @@ package oopÝntro;
 
 public class Product { //özellik tutucu class
 	
+	//constructor bloðu , yapýcý blok
 	//encapsulation
 	//bunlarý sadece içeriden okumaya kapatýyoruz. get ile setle kontrol edicez
 	private int id;
@@ -16,7 +17,7 @@ public class Product { //özellik tutucu class
 	}
 	
 	public Product(int id, String name, double unitPrice, String detail, double discount, double unitPriceAfterDiscount) {
-		super();
+		super(); //parametresiz olaný da çalýþtýr
 		this.id = id;
 		this.name = name;
 		this.unitPrice = unitPrice;

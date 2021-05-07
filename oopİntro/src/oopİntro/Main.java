@@ -4,7 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Product product1 = new Product(1,"Lenovo v14", 15000, "16 GB Ram",10,13500); //referans oluþturma, intance
+		//referans oluþturma, intance
+		Product product1 = new Product(1,"Lenovo v14", 15000, "16 GB Ram",10,13500);
 		//constructor
 		
 		System.out.println(product1.getUnitPriceAfterDiscount());
@@ -31,7 +32,7 @@ public class Main {
 		System.out.println(category1.getName());
 		System.out.println(category2.getName());
 		
-		
+//		2. ders sonu		
 //		Product[] products = {product1,product2,product3};
 //		
 //		for (Product product : products) { //türü büyük harfle, onun küçük harflisini de deðiþken olarak yazarýz
