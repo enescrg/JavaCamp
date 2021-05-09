@@ -1,0 +1,11 @@
+Senaryo
+
+Kahve dükkanlarý için müþteri yönetimi yapan bir sistem yazmak istiyoruz.
+
+Starbucks ve Nero firmasý için çalýþýyoruz
+
+Ýki firma da müþterilerini veri tabanýna kaydetmek istiyor.
+
+Starbucks müþterileri kaydederken, mutlaka mernis doðrulamasý istiyor. Nero müþterileri kaydederken böyle bir þey istemiyor.
+
+Starbucks müþteriler için her kahve alýmýnda yýldýz kazandýrmak istiyor.

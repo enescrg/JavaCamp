@@ -6,7 +6,8 @@ public class Customer {
 }
 
 //base/super. temel sýnýf- ortak alan
-//SOLID	
+//SOLID
 //sürdürülebilir yazýlým saðlar
+//plug play: tak oynat þeklinde yapýlmasý gerek
 
 

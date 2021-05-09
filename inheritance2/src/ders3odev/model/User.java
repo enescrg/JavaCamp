@@ -4,11 +4,11 @@ public class User {
 
 	private int id;
 	private String phoneNumber;
-
+	
 	public User() {
-
+		
 	}
-
+	
 	public User(int id, String phoneNumber) {
 		super();
 		this.id = id;

@@ -5,15 +5,15 @@ import ders3odev.model.User;
 public class UserManager {
 	
 	public void add(User user) {
-		System.out.println(user.getId() + ": Eklendi");
+		System.out.println(user.getId() + " Eklendi");
 	}
 	
 	public void update(User user) {
-		System.out.println(user.getId() + ": Güncellendi");
+		System.out.println(user.getId() + " Güncellendi");
 	}
 	
 	public void delete(User user) {
-		System.out.println(user.getId() + ": Silindi");
+		System.out.println(user.getId() + " Silindi");
 	}
 
 }

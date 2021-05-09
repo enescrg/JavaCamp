@@ -16,13 +16,9 @@ public class Main {
 		instructor1.setPhoneNumber("05555555555");
 		instructor1.setNationalIdenty("11111111111");
 
-		Instructor instructor2 = new Instructor();
-		instructor2.setId(2);
-		instructor2.setFirstName("Kerem");
-		instructor2.setLastName("Varýþ");
-		instructor2.setDateOfBirth(1989);
-		instructor2.setPhoneNumber("06666666666");
-		instructor2.setNationalIdenty("22222222222");
+		Instructor instructor2 = new Instructor(2, "06666666666", "Kerem", "Varýþ", 1989, "22222222222");
+		
+	
 
 		Student student1 = new Student();
 		student1.setId(0);
@@ -32,10 +28,12 @@ public class Main {
 		student1.setPhoneNumber("07777777777");
 		student1.setNationalIdenty("33333333333");
 
+		
 		UserManager userManager = new UserManager();
 		userManager.add(instructor1);
 		userManager.update(student1);
 		userManager.delete(instructor2);
+		
 
 	}
 

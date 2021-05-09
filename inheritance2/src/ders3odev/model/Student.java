@@ -1,16 +1,18 @@
 package ders3odev.model;
 
 public class Student extends User{
-	private String firstName;
-	private String lastName;
-	private int dateOfBirth;
-	private String nationalIdenty;
-	
-	public Student() {
-		
-	}
-	
-	public Student(int id, String PhoneNumber, String firstName, String lastName, int dateOfBirth, String nationalIdenty) {
+	String firstName;
+	String lastName;
+	int dateOfBirth;
+	 String nationalIdenty;
+	 
+	 public Student() {
+		 
+	 }
+	 
+	public Student(int id, String phoneNumber, String firstName, String lastName, int dateOfBirth,
+			String nationalIdenty) {
+		super(id, phoneNumber);
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.dateOfBirth = dateOfBirth;
@@ -48,4 +50,5 @@ public class Student extends User{
 	public void setNationalIdenty(String nationalIdenty) {
 		this.nationalIdenty = nationalIdenty;
 	}
+	
 }

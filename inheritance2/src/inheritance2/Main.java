@@ -2,7 +2,8 @@ package inheritance2;
 
 public class Main {
 
-	public static void main(String[] args) { //loglama, kim ne zaman nerede ne yaptý, bunlarý bir yerde stoklarsýn.
+	public static void main(String[] args) { 
+		//loglama, kim ne zaman nerede ne yaptý, bunlarý bir yerde stoklarsýn. kayýtlý tutmak için
 		//birbirinin alternatifi olan kodlar için if yazýlmaz
 		
 		CustomerManager customerManager = new CustomerManager();

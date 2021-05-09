@@ -7,7 +7,8 @@ public class Main {
 		
 		//çoklu loglamak için array kullanýlýr
 		Logger[] loggers = {new SmsLogger(), new EmailLogger(), new FileLogger()};
-		CustomerManager customerManager = new CustomerManager(loggers); //newlwdiklerini deðiþtirebilirsin
+		
+		CustomerManager customerManager = new CustomerManager(loggers);
 		
 		Customer engin = new Customer(1, "Engin ", "Demiroð");
 		
